@@ -88,6 +88,8 @@ a {
     transition: all .3s
 }
 
+
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -123,6 +125,8 @@ margin-top:3rem;}
 .h-4 {height:4rem;}
 
 .centrado {margin-top:10%;margin-bottom:10%;}
+
+.intro{padding-left:20%;padding-right:20%;}
 /*ANIMATION */
 
 
@@ -132,7 +136,16 @@ margin-top:3rem;}
 h1 {
 
     font-size: 60px;
-    text-transform: uppercase;
+    ;
+}
+
+
+h2 {
+
+    font-size: 48px;
+    font-weight:900px;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 h3 {
@@ -503,7 +516,7 @@ margin-bottom:1rem;}
 
 .box-intro em {
     font-style: normal;
-    text-transform: uppercase
+    text-transform: capitalize;
 }
 
 b i:last-child {
@@ -511,10 +524,10 @@ b i:last-child {
 }
 
 .box-intro h5 {
-    letter-spacing: 4px;
-    text-transform: uppercase;
+    letter-spacing:;
+    text-transform: ;
     color: #999;
-    line-height: 1.7
+    line-height: 2
 }
 
 
@@ -792,6 +805,8 @@ b i:last-child {
 }
 
 .portfolio_item {
+    margin: 0.75rem;
+
     position: relative;
     overflow: hidden;
     display: block;
@@ -809,6 +824,7 @@ b i:last-child {
     opacity: 0;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+   
 }
 
 .portfolio_item .portfolio_item_hover .item_info {
@@ -832,34 +848,34 @@ b i:last-child {
     -webkit-transition: all .2s ease-in-out .2s;
     transition: all .2s ease-in-out .2s;
     opacity: 0;
+   
 }
 
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
-    display: inline-block;
-    background-color: #00D9FF;
-    padding: 5px 20px;
-    border-radius: 25px;
-    color: #333;
+
     margin-top: 10px;
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
     -webkit-transition: all .3s ease-in-out .3s;
     transition: all .3s ease-in-out .3s;
     opacity: 0;
-    font-size: 10px;
+    font-size: 14px;
+    font-weight:500;
+    letter-spacing: normal;
     letter-spacing: 2px;
 }
 
 .portfolio_item:hover .portfolio_item_hover {
-    opacity: 1;
+    opacity: 5;
     -webkit-transform: translateX(0);
     transform: translateX(0);
+
 }
 
 .portfolio_item:hover .item_info em,
 .portfolio_item:hover .item_info span {
-    opacity: 1;
+    opacity: 2;
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
@@ -968,8 +984,8 @@ footer img {
 
 .top-bar h1 {
     font-size: 60px;
-    text-transform: uppercase;
-    font-weight: 700;
+    text-transform: ;
+    font-weight: 800;
     color: #fff;
     line-height: 50px;
 }
@@ -1443,7 +1459,7 @@ margin-bottom:1rem;
 
 }
 
-
+.intro{padding-left:10%;padding-right:10%;}
 
 .imag {
 max-width:100%;

@@ -32,6 +32,7 @@
 /* PROGRESS BAR */
 /* Style the header: fixed position (always stay at the top) */
 .header {
+
   position: fixed;
   top: 0;
   z-index: 1;
@@ -56,13 +57,24 @@
 /* General
 ==================================================*/
 
+
 html,
-body {
+body, nav{
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     color: #18181C;
     font-size:1rem;
+}
+
+
+.navegacion { 
+ 
+   
+    font-color:#000;
+   
+
+
 }
 
 .no-padding {
@@ -84,6 +96,7 @@ body {
 }
 
 a {
+    color:black;
     -webkit-transition: all .3s;
     transition: all .3s
 }
@@ -306,8 +319,10 @@ margin-bottom:1rem;}
 }
 
 .box-logo {
-    display: block;
+    display: flex;
     padding: 20px;
+    align-content: center;
+
 }
 
 .box-primary-nav-trigger {
@@ -1354,7 +1369,8 @@ border-radius:3px; display:flex;justify-content:center;
 text-align:center;margin:auto;
 }
 
-.principal, a {color:#fff !important}
+.enlace-home{color: #fff;
+}
 
 
 

@@ -56,10 +56,15 @@
 
 /* General
 ==================================================*/
+nav {
+padding:1rem;
+font-family: "poppins"}
 
+.idioma {
+    float:right;}
 
 html,
-body, nav{
+body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
